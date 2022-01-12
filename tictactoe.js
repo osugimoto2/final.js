@@ -2,7 +2,13 @@ var width=getWidth();
 var height=getHeight();
 
 function start(){
-	var first=readBoolean("Do you want be first? Yes, No");
+	var first=readBoolean("Do you want be first? Yes, No"){
+		if(first==yes){
+
+		}
+	}else{
+		
+	}
 	var rect=newRectangle(width,10);
 	rect.setPosition(0,height/3);
 	rect.setColor(Color.black);
