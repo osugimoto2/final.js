@@ -7,7 +7,7 @@ function start(){
 
 		}
 	}else{
-		
+
 	}
 	var rect=newRectangle(width,10);
 	rect.setPosition(0,height/3);
@@ -27,4 +27,5 @@ function start(){
 	add(rect4);
 	var circle1=newCircle(10);
 	circle1.color(Color.black);
+	
 }
